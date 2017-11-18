@@ -123,7 +123,7 @@ coffee.Brand = 'Caribu'
 coffee.Flavor = 'Frapucino'
 coffee.Size = 'Large'
 coffee.Price = 4.55
- table_service.insert_entity('itemstable', coffee)
+table_service.insert_entity('itemstable', coffee)
 print('Created entry for caribu...\n')
 time.sleep(1)
 
